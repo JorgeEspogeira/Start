@@ -7,16 +7,114 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div class="container"></div>
-        <header>
-            <img src="./img/telemovel.png">
-            <ul>
-                <a>Numero: 918288598</a>
-            </ul> <p>
-            <img src="./img/images.jpg">
-            <ul>
-                <a>Email: neokastros@gmail.com</a>
-            </ul>
+
     <div>
+        <h1 id="titulo">Contact form</h1>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Name</strong></label>
+                <input type="text" name="nome" id="nome" required> 
+            </div>
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label<strong>Your development area: </strong></label><br>
+            <br>
+            <label>
+                <input type="radio" name="devweb" value="frontend">Front-end 
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Back-end
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Fullstack
+            </label>
+            <label>
+                <input type="radio" name="other" value="other">Other
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="Experiencia"><strong>Experiencia</strong></label>
+            <select id="Experiencia">
+                <option selected disable value="">Selecione</option>
+                <option>Junior</option>
+                <option>Middle</option>
+                <option>Senior</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Which of the following technologies do you use?</strong></label><br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                <label for="tecnologia1"></label>HTML</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                <label for="tecnologia1">CSS</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
+                <label for="tecnologia1">Javascript</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                <label for="tecnologia1">PHP</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                <label for="tecnologia1">C#</label>
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                <label for="tecnologia1">Python</label>
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                <label for="tecnologia1">Java</label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label<strong>Contact message:</strong></label><br>
+            <br>
+            <textarea rows= "10" style="width: 26em" id="Experiencia" name="Experiencia"></textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluded</button>
+        
+        
+
+    </form>
+    
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container"></div>
+<header>
+    <img src="./img/telemovel.png">
+    <ul>
+        <a>Numero: 918288598</a>
+    </ul> <p>
+    <img src="./img/images.jpg">
+    <ul>
+        <a>Email: neokastros@gmail.com</a>
+    </ul>
+<div>
+</body> -->

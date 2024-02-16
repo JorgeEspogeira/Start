@@ -14,6 +14,7 @@ ul {
 }
 
 a{
+    text-decoration: underline blue;
     color: white;
     text-decoration: none;
 }
@@ -22,7 +23,7 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid blue;
+    border: 3px solid blue;
 }
 
 .center {
@@ -30,7 +31,11 @@ header img {
 }
 
 h1{
-    color:blue
+    text-decoration: underline blue;
+    margin-top: -7%;
+    color:white
+    
+       
 }
 
 footer img{
@@ -58,5 +63,10 @@ footer p {
 
 nav a:hover {
     color:blue
+}
+
+h3{
+    text-decoration: underline blue;
+    color:white
 }
 
